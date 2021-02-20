@@ -1,6 +1,6 @@
 # ReactJS Project
 
-The initial template for my projects.
+The initial template to my projects.
 
 * This template will include:
   * ReactJS
