@@ -6,6 +6,16 @@ export default class ServiceExample {
         return new DomainExample('value');
     }
 
+    public doSomeList(): DomainExample[] {
+        return [
+            new DomainExample('value'),
+            new DomainExample('value2'),
+            new DomainExample('value3')
+        ]
+    }
 
+    public doSomeBooleanThing() : boolean {
+        return true;
+    }
 
 }
