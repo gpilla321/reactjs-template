@@ -11,7 +11,7 @@ test('should render subtitle propertie when is passed', () => {
     const newSubtitle = 'new subtitle'
     const { container } = render(<CommonComponentExample subtitle={newSubtitle} />)
 
-    expect(queryByText(container, newSubtitle))
+    expect(queryByText(container, newSubtitle)).toBeInTheDocument();
 });
 
 
@@ -19,5 +19,5 @@ test('should render subtitle default', () => {
     const { container } = render(<CommonComponentExample/>);
     const subtitle = 'subtitle';
 
-    expect(queryByText(container, subtitle));
+    expect(queryByText(container, subtitle)).toBeInTheDocument();
 });

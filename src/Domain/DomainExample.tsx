@@ -11,6 +11,6 @@ export default class DomainExample {
     }
 
     set prop(value: string) {
-        this.prop = value;
+        this._prop = value;
     }
 }
