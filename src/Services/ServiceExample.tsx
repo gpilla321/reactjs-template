@@ -1,6 +1,7 @@
 import DomainExample from "../Domain/DomainExample";
+import IServiceDefault from "./Interface/IServiceDefault";
 
-export default class ServiceExample {
+export default class ServiceExample implements IServiceDefault {
 
     public doSomething(): DomainExample {
         return new DomainExample('value');
