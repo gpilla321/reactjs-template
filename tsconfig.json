@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "__tests__/Components/Pages/PageExample.test.tsx", "__tests__/Components/Common/CommonComponentExample.test.tsx", "__tests__/Domain/Service/ServiceExample.test.tsx", "__tests__/Domain/DomainExample.test.tsx"  ]
+, "__tests__/Components/Pages/PageExample.test.tsx", "__tests__/Components/Common/CommonComponentExample.test.tsx", "__tests__/Domain/Service/ServiceExample.test.tsx", "__tests__/Domain/DomainExample.test.tsx", "__tests__/Domain/Validator/DefaultValidator.test.tsx", "__tests__/Domain/Validator/DefaultError.test.tsx"  ]
 }
